@@ -2,11 +2,9 @@
   "recommendations": [
     "eamodio.gitlens",
     "github.github-vscode-theme",
-    "github.remotehub",
     "github.vscode-github-actions",
     "github.vscode-pull-request-github",
     "humao.rest-client",
-    "ms-vscode.remote-repositories",
     "nuxtr.nuxtr-vscode",
     "prisma.prisma",
     "tabnine.tabnine-vscode",
