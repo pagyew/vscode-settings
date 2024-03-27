@@ -26,7 +26,6 @@
   },
   "editor.renderWhitespace": "all",
   "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.tabSize": 2,
   "editor.tabCompletion": "onlySnippets",
