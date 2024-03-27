@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "github.github-vscode-theme",
+    "github.remotehub",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "humao.rest-client",
+    "ms-vscode.remote-repositories",
+    "nuxtr.nuxtr-vscode",
+    "prisma.prisma",
+    "tabnine.tabnine-vscode",
+    "vivaxy.vscode-conventional-commits",
+    "vscode-icons-team.vscode-icons",
+    "vue.volar",
+    "wallabyjs.console-ninja",
+    "wayou.vscode-todo-highlight",
+    "wmaurer.change-case",
+  ]
+}
