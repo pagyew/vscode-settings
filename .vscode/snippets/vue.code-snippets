@@ -1,0 +1,37 @@
+{
+	"vue-computed": {
+		"scope": "javascript,typescript,vue",
+		"prefix": "vcom",
+		"body": [
+			"const $1 = computed(() => $2)"
+		],
+		"description": "Creates Vue computed"
+	},
+	"vue-sfc-setup": {
+		"scope": "vue",
+		"prefix": "vsfc",
+		"body": [
+			"<script setup lang=\"ts\">",
+			"$1",
+			"</script>",
+			"",
+			"<template>",
+			"  <div>",
+			"  </div>",
+			"</template>",
+			"",
+			"<style module=\"css\">",
+			"",
+			"</style>"
+		],
+		"description": "Vue SFC template with TS and CSS Module"
+	},
+	"vue-use-store": {
+		"score": "javascript, typescript, vue",
+		"prefix": "vstr",
+		"body": [
+			"const $1Store = use$1Store()"
+		],
+		"description": "Connects store"
+	}
+}
