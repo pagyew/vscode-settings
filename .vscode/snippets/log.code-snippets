@@ -1,18 +1,60 @@
 {
 	"Print text to console": {
 		"scope": "javascript, typescript, vue",
-		"prefix": "lgt",
+		"prefix": "clt",
 		"body": [
 			"console.log('## $1')"
 		],
 		"description": "Log output text to console"
 	},
-	"Print variable to console": {
+	"Print primitive variable to console": {
 		"scope": "javascript, typescript, vue",
-		"prefix": "lgv",
+		"prefix": "clp",
 		"body": [
 			"console.log('>> $1: ', { $1 })"
 		],
 		"description": "Log output variable to console"
+	},
+	"Print reference variable to console": {
+		"scope": "javascript, typescript, vue",
+		"prefix": "clr",
+		"body": [
+			"console.log('>> $1: ', $1)"
+		],
+		"description": "Log output variable to console"
+	},
+	"Print stringify object variable to console": {
+		"scope": "javascript, typescript, vue",
+		"prefix": "cls",
+		"body": [
+			"console.log('>> $1: ', JSON.stringify($1))"
+		],
+		"description": "Log output variable to console"
+	},
+	"Print directory of object variable to console": {
+		"scope": "javascript, typescript, vue",
+		"prefix": "cdr",
+		"body": [
+			"console.dir($1)"
+		],
+		"description": "Log output variable to console"
+	},
+	"Print table of object variable to console": {
+		"scope": "javascript, typescript, vue",
+		"prefix": "ctr",
+		"body": [
+			"console.table($1)"
+		],
+		"description": "Log output variable to console"
+	},
+	"Create group to console": {
+		"scope": "javascript, typescript, vue",
+		"prefix": "ctr",
+		"body": [
+			"console.group($1)",
+			"$2",
+			"console.groupEnd($1)"
+		],
+		"description": "Log group to console"
 	}
 }

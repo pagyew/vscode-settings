@@ -27,7 +27,7 @@
 		"description": "Vue SFC template with TS and CSS Module"
 	},
 	"vue-use-store": {
-		"score": "javascript, typescript, vue",
+		"scope": "javascript, typescript, vue",
 		"prefix": "vstr",
 		"body": [
 			"const $1Store = use$1Store()"
