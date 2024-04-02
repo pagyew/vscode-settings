@@ -89,7 +89,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}\n\n${issueTitle}",
+  "githubIssues.workingIssueFormatScm": "(${issueNumberLabel})\n\n${issueTitle}",
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
